@@ -4,7 +4,7 @@ import openai
 import json
 from dotenv import load_dotenv
 
-# flask --app main --debug run
+# flask --app main --debug run --host=0.0.0.0
 
 # replace with your own openai key in .env
 load_dotenv()
